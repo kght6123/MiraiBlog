@@ -2,9 +2,10 @@
 
 ## Tasks
 
-- [ ] add storybook.
+- [ ] create storybook for prototype.
 - [ ] create CURD protptype use echo framework. https://echo.labstack.com/cookbook/crud
 - [ ] create markdown-editor prototype use muse. https://shd101wyy.github.io/markdown-preview-enhanced/#/ https://github.com/shd101wyy/mume
+- [ ] create markdown-editor prototype use markdown-it. https://markdown-it.github.io/ https://github.com/markdown-it/markdown-it
 
 ## Project setup
 ```
