@@ -1,0 +1,33 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		/*"go.gopath": "${env:HOME}/develop/go",*/
+		/* "go.toolsGopath": "${env:HOME}/develop/go", tools用のGOPATH、プロジェクト毎にGOPATHを分けているときに、toolsを共有したくないときに設定 */
+		/* go languageServer settings */
+		"go.useLanguageServer": true,
+		"go.languageServerExperimentalFeatures": {
+			"format": true,
+			"autoComplete": true,
+			"rename": true,
+			"goToDefinition": true,
+			"hover": true,
+			"signatureHelp": true,
+			"goToTypeDefinition": true,
+			"goToImplementation": true,
+			"documentSymbols": true,
+			"workspaceSymbols": true,
+			"findReferences": true
+		},
+		"go.lintFlags": [],
+		"terminal.integrated.env.osx": {
+			/*"GVM_ROOT": "${env:HOME}/.gvm",
+			"GOPATH": "${env:HOME}/develop/go",
+			"PATH": "${env:HOME}/develop/go/bin:${env:HOME}/.gvm/gos/go1.11.5/bin:${env:HOME}/develop/go/overlay/bin:${env:HOME}/.gvm/bin",*/
+		}
+		
+	}
+}

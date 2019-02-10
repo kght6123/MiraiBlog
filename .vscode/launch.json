@@ -1,0 +1,26 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch Golang",
+			"type": "go",
+			"request": "launch",
+			"mode": "auto",
+			"program": "${workspaceFolder}",
+			"env": {},
+			"args": []
+		},
+		{
+			/* execute target machine ($ dlv debug --headless --listen=:2345 --log) */
+			"name": "Remote Golang (未設定)",
+			"type": "go",
+			"request": "launch",
+			"mode": "remote",
+			"remotePath": "${workspaceRoot}",
+			"port": 2345,
+			"host": "127.0.0.1",
+			"program": "${workspaceRoot}",
+			"env": {}
+		}
+	]
+}
